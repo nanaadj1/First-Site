@@ -48,7 +48,7 @@ input {
     box-sizing: border-box;
     padding: 4px 8px;
     border-width: 1px; 
-    border: none;
+    border: 1px black;
     color: #000000;
     background: transparent;
     border-radius: var(--image);
@@ -62,8 +62,8 @@ input {
 button {
     border-radius: var(--image);
     padding: 5px 10px;
-    border: none;
-    background: white;
+    border: 1px black;
+    background: transparent;
     color: black;
     font-weight: bold;
     box-sizing: border-box;
@@ -86,10 +86,3 @@ ul{
     list-style-position: inside;
     padding-left: 0;
 }
-
-
-ul li{
-    text-align: center;
-    align-items: center;
-}
-
