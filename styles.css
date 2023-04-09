@@ -28,7 +28,7 @@ body, html {
     padding: 10px;
     background: #b1b1ac;
     color: #000000;
-    font-family: var(--font);
+    font-family: sans-serif;
 }
 
 img {
@@ -38,7 +38,7 @@ img {
 }
 
 a {
-    color: var(--text);
+    color:#000000;
 }
 
 input {
@@ -52,7 +52,7 @@ input {
     color: #000000;
     background: transparent;
     border-radius: var(--image);
-    font-family: var(--font);
+    font-family: sans-serif;
 }
 
 ::placeholder {
@@ -70,7 +70,7 @@ button {
     display: block;
     margin: 8px 0;
     cursor: pointer;
-    font-family: var(--font);
+    font-family: sans-serif;
     width: 160px;
 }
 
@@ -82,14 +82,16 @@ button {
 
 .ul{
     text-align: center;
+    align-items: center;
 }
 
 
 .li{
     text-align: center;
+    align-items: center;
 }
 
 li span {
-    position: relative;
+    position: absolute;
     left: -10px;
   }
