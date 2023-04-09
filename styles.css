@@ -80,14 +80,15 @@ button {
     text-align: center;
 }
 
-.ul{
+ul{
     text-align: center;
     align-items: center;
     list-style-position: inside;
+    padding-left: 0;
 }
 
 
-.li{
+ul li{
     text-align: center;
     align-items: center;
 }
