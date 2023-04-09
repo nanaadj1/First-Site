@@ -23,12 +23,19 @@
 }
 
 
-body, html, main {
+    .main {
     margin: 0;
-    padding: 10px;
     background: #b1b1ac;
     color: #000000;
     font-family: sans-serif;
+    text-align: center;
+}
+    .second {
+    margin: 0;
+    background: #777714;
+    color: #000000;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 img {
@@ -53,6 +60,7 @@ input {
     background: transparent;
     border-radius: var(--image);
     font-family: sans-serif;
+    text-align: center;
 }
 
 ::placeholder {
@@ -72,6 +80,7 @@ button {
     cursor: pointer;
     font-family: sans-serif;
     width: 160px;
+    text-align: center;
 }
 
 .main{
@@ -84,5 +93,8 @@ ul{
     text-align: center;
     align-items: center;
     list-style-position: inside;
+    display: table;
+    margin: 0 auto ;
     padding-left: 0;
 }
+
