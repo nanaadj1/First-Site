@@ -23,7 +23,7 @@
 }
 
 
-body, html {
+body, html, main {
     margin: 0;
     padding: 10px;
     background: #b1b1ac;
@@ -83,6 +83,7 @@ button {
 .ul{
     text-align: center;
     align-items: center;
+    list-style-position: inside;
 }
 
 
