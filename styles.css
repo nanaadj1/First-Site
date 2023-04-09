@@ -99,7 +99,10 @@ button {
 }
 .header {
     display: flex;
+    font-size: larger;
+    font-weight: bold;
     flex-direction: row;
-    gap: 30px;
+    gap: 40px;
     justify-content: flex-end;
+    margin-right: 20 px
 }
