@@ -8,7 +8,7 @@
     --cowboy: 'Rye', cursive;
     --regular: sans-serif;
     --fantasy: 'MedievalSharp', cursive;
-    --font: var(--regular);
+    --font: sans-serif;
     --sharp: 0;
     --soft: 10px;
     --round: 100px;
@@ -50,7 +50,7 @@ input {
     border-width: 1px; 
     border: none;
     color: #000000;
-    background: white;
+    background: transparent;
     border-radius: var(--image);
     font-family: var(--font);
 }
@@ -63,8 +63,8 @@ button {
     border-radius: var(--image);
     padding: 5px 10px;
     border: none;
-    background: #000000;
-    color: var(--background);
+    background: white;
+    color: black;
     font-weight: bold;
     box-sizing: border-box;
     display: block;
@@ -88,3 +88,8 @@ button {
 .li{
     text-align: center;
 }
+
+li span {
+    position: relative;
+    left: -10px;
+  }
