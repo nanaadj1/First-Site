@@ -23,7 +23,7 @@
 }
 
 
-    html, main {
+html, main {
     margin: 0;
     padding-top:30px;
     padding-bottom: 20px;
@@ -32,11 +32,12 @@
     font-family: sans-serif;
     text-align: center;
 }
-    .second {
+
+.second {
     margin-top: 10px;
     padding:20px;
     height:400px ;
-    background: #777714;
+    background: #4295e2;
     color: #000000;
     font-family: sans-serif;
     text-align: center;
@@ -64,7 +65,7 @@ input {
     background: transparent;
     border-radius: 4px ;
     font-family: sans-serif;
-    align-items: center;}
+    text-align: center;}
 
 ::placeholder {
     color: #000000;
@@ -83,7 +84,7 @@ button {
     cursor: pointer;
     font-family: sans-serif;
     width: 160px;
-    align-items: center;
+    text-align: center;
 }
 
 .main{
@@ -96,8 +97,6 @@ ul{
     text-align: center;
     align-items: center;
     list-style-position: inside;
-    display: table;
-    margin: 0 auto ;
     padding-left: 0;
 }
 
