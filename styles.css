@@ -53,7 +53,7 @@ a {
     color:#000000;
 }
 
-input {
+.input {
     display: block;
     width: 160px;
     box-sizing: border-box;
@@ -70,7 +70,7 @@ input {
     color: #000000;
 }
 
-button {
+.button {
     border-radius: 6px;
     padding: 5px 10px;
     border: 4px black;
